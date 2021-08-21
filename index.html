@@ -7,88 +7,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tien's Profile</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/css/style.css">
 </head>
 
 <body>
     <div class="personal-info">
-        <div class="avatar"></div>
+        <div class="avatar">
+            <img id="avatar" src="./resources/img/avatar2a.jpg" alt="Avatar">
+        </div>
         <h2 id="name">Duy Tien Nguyen</h2>
         <div class="headline">Student at Hanoi University of Science and Technology</div>
         <div class="contact">
             <ul>
-                <li><a id="linkedin" href="https://www.linkedin.com/in/tienduy2912/">www.linkedin.com/in/tienduy2912</a></li>
-                <li><a id="github" href="https://github.com/Tiennd4857">github.com/Tiennd4857</a></li>
+                <li id="linkedin"><a href="https://www.linkedin.com/in/tienduy2912/">www.linkedin.com/in/tienduy2912</a></li>
+                <li id="github"><a href="https://github.com/Tiennd4857">github.com/Tiennd4857</a></li>
                 <li>tienduy2912@gmail.com</li>
             </ul>
         </div>
     </div>
-    <div class="education">
+    <div class="education part">
         <h3>Education</h3>
-        <ul>
-            <li>
-                <img src="#" alt="HUST-logo">
-                <p>
+        <ul class="part-info">
+            <li class="detail-container">
+                <div class="logo-container">
+                    <img src="./resources/img/Logo_Hust.png" alt="HUST-logo">
+                </div>
+                <div class="detail">
                     <h4 class="education-name"> Hanoi University of Science and Technology</h4>
                     <p>Engineer's degree, Infomation Technology</p>
-                    <p class="time">2019-2023</p>
-                </p>
+                    <p class="time">2019 - present</p>
+                </div>
 
             </li>
         </ul>
     </div>
-    <div class="experience">
+    <div class="experience part">
         <h3>Work Experience</h3>
-        <ul>
-            <li>
-                <img src="#" alt="Math-logo">
-                <h4>Mathematics Teaching Assistant</h4>
-                <p class="time">Mar 2020 - Jul 2021</p>
-                <p class="location">Hanoi, Vietnam</p>
-                <ul class="job-description">
-                    <li>Assisted teaching for a high-school principal</li>
-                    <li>Taught several classes of 5-7 students</li>
-                </ul>
+        <ul class="part-info">
+            <li class="detail-container">
+                <div class="logo-container">
+                    <img class="logo" src="./resources/img/Logo_Math.png" alt="Math-logo">
+                </div>
+                <div class="detail">
+                    <h4>Mathematics Teaching Assistant</h4>
+                    <p class="time">Mar 2020 - Jul 2021</p>
+                    <p class="location">Hanoi, Vietnam</p>
+                    <ul class="job-description">
+                        <li>Assisted teaching for a high-school principal</li>
+                        <li>Taught several classes of 5-7 students</li>
+                    </ul>
+                </div>
+
             </li>
-            <li>
-                <img src="#" alt="Yola-logo">
-                <h4>English Teaching Assistant</h4>
-                <p class="time">Oct 2019 - Jul 2020</p>
-                <p class="location">Hanoi, Vietnam</p>
-                <ul class="job-description">
-                    <li>Assisted for foreign teachers</li>
-                    <li>Participated in organizing weekly activities for kids</li>
-                </ul>
+            <li class="detail-container">
+                <div class="logo-container">
+                    <img class="logo" src="./resources/img/Logo_Yola.png" alt="Yola-logo">
+                </div>
+                <div class="detail">
+                    <h4>English Teaching Assistant</h4>
+                    <p class="time">Oct 2019 - Jul 2020</p>
+                    <p class="location">Hanoi, Vietnam</p>
+                    <ul class="job-description">
+                        <li>Assisted for foreign teachers</li>
+                        <li>Participated in organizing weekly activities for kids</li>
+                    </ul>
+                </div>
+
             </li>
         </ul>
     </div>
-    <div class="skills">
+    <div class="skills part">
         <h3>Skills</h3>
-        <ul>
+        <ul class="part-info">
             <li>Java, JavaScript, HTML, CSS, React, PostgreSQL</li>
             <li>Agile, Git, GitHub</li>
         </ul>
     </div>
-    <div class="certifications">
+    <div class="certifications part">
         <h3>Certifications</h3>
-        <ul>
-            <li>
-                <img src="#" alt="IBM-logo">
-                <h4>Agile Explorer</h4>
-                <p>IBM</p>
-                <p class="time">Issue Jul 2021 - No Expiration Date</p>
-                <p class="credential"><a href="https://www.credly.com/badges/c1005885-e5e8-4a02-8e2d-ef5c0b2dc3e9">See credential</a></p>
+        <ul class="part-info">
+            <li class="detail-container">
+                <div class="logo-container">
+                    <img class="logo" src="./resources/img/Logo_IBM.png" alt="IBM-logo">
+                </div>
+                <div class="detail">
+                    <h4>Agile Explorer</h4>
+                    <p>IBM</p>
+                    <p class="time">Issue Jul 2021 - No Expiration Date</p>
+                    <p class="credential"><a href="https://www.credly.com/badges/c1005885-e5e8-4a02-8e2d-ef5c0b2dc3e9">See credential</a></p>
+                </div>
             </li>
-            <li>
-                <img src="#" alt="IBM-logo">
-                <h4>Git&Github Master Class : Git Workflow, Commands & GitHub</h4>
-                <p>Udemy</p>
-                <p class="time">Issue Jul 2021 - No Expiration Date</p>
-                <p class="credential"><a href="https://www.udemy.com/certificate/UC-84f39a20-ee73-4920-a577-3fc05a214723/">See credential</a></p>
+            <li class="detail-container">
+                <div class="logo-container">
+                    <img class="logo" src="./resources/img/Logo_Udemy.png" alt="Udemy-logo">
+                </div>
+                <div class="detail">
+                    <h4>Git&Github Master Class : Git Workflow, Commands & GitHub</h4>
+                    <p>Udemy</p>
+                    <p class="time">Issue Jul 2021 - No Expiration Date</p>
+                    <p class="credential"><a href="https://www.udemy.com/certificate/UC-84f39a20-ee73-4920-a577-3fc05a214723/">See credential</a></p>
+                </div>
             </li>
         </ul>
     </div>
-    <div class="projects">
-        <h3>Projects</h3>
+    <div class="projects part">
+        <h3 class="part-info">Projects</h3>
         <ul>
             <li>
                 <h4>Basic Graph Algorithms Visualizer</h4>
@@ -103,7 +126,7 @@
                     </li>
                     <li>
                         Responsibilities:
-                        <ul class="project-responsibilities">
+                        <ul class="project-responsibilities second-level-list">
                             <li>Communicate with teammates to get clear requirement.</li>
                             <li>Create a clear and user-friendly GUI</li>
                             <li>Develop the modules of the system</li>
@@ -111,7 +134,7 @@
                     </li>
                     <li>
                         Accomplishments:
-                        <ul class="project-accomplishments">
+                        <ul class="project-accomplishments second-level-list">
                             <li>Improved teamwork and communication skills</li>
                             <li>Improved OOP thinking</li>
                             <li>Gained experience in managing time and resources</li>

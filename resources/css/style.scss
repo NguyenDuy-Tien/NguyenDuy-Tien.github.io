@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(222, 245, 241);
+    list-style: none;
+}
+
+body {
+    padding: 2vw 5vh 2vw 5vh;
+}
+
+html {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+}
+
+#avatar {
+    width: 20vw;
+    margin-bottom: 5px;
+    height: auto;
+    max-width: 160px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.logo-container {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(235, 243, 242);
+    text-align: center;
+}
+
+img {
+    height: 50px;
+}
+
+h3 {
+    border-bottom: 2px solid;
+    margin-bottom: 4px;
+}
+
+.time,
+.location {
+    opacity: .6;
+    font-size: 14px;
+}
+
+a {
+    color: rgb(24, 83, 245);
+}
+
+// PARTS
+.part {
+    padding-bottom: .6em;
+    border-top: 4px solid;
+}
+
+.detail-container {
+    display: flex;
+    position: relative;
+    margin-top: .6em;
+    margin-bottom: 1em;
+    .logo-container {
+        margin-right: 2em;
+        margin-top: .2em;
+    }
+}
+
+// PERSONAL INFOMATION
+.personal-info {
+    text-align: center;
+    margin-bottom: 1em;
+    .headline {
+        margin-top: .4em;
+        margin-bottom: .2em;
+        font-style: italic;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        li {
+            border-left: 2px solid;
+            padding-left: .8em;
+            margin-left: .8em;
+            a {
+                text-decoration: none;
+            }
+        }
+        #linkedin {
+            border-left: none;
+        }
+        #github {
+            a {
+                color: rgb(24, 83, 245);
+            }
+        }
+    }
+}
+
+//WORK EXPERIENCE
+.experience {
+    .detail {
+        ul {
+            margin-left: 1.2em;
+            margin-top: .3em;
+            li {
+                list-style: square;
+            }
+        }
+    }
+}
+
+//SKILLS
+.skills {
+    ul li {
+        list-style: circle;
+        margin-left: 1.2em;
+    }
+}
+
+//PROJECTS
+.projects {
+    .project-description {
+        margin-left: 1.2em;
+        li {
+            list-style: circle;
+            .second-level-list {
+                margin-left: 1em;
+                li {
+                    list-style: square;
+                }
+            }
+        }
+    }
+}

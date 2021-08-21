@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #def5f1;
+  list-style: none;
+}
+
+body {
+  padding: 2vw 5vh 2vw 5vh;
+}
+
+html {
+  font-family: 'Roboto Slab', serif;
+  font-size: 15px;
+}
+
+#avatar {
+  width: 20vw;
+  margin-bottom: 5px;
+  height: auto;
+  max-width: 160px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.logo-container {
+  width: 50px;
+  height: 50px;
+  background-color: #ebf3f2;
+  text-align: center;
+}
+
+img {
+  height: 50px;
+}
+
+h3 {
+  border-bottom: 2px solid;
+  margin-bottom: 4px;
+}
+
+.time,
+.location {
+  opacity: .6;
+  font-size: 14px;
+}
+
+a {
+  color: #1853f5;
+}
+
+.part {
+  padding-bottom: .6em;
+  border-top: 4px solid;
+}
+
+.detail-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-top: .6em;
+  margin-bottom: 1em;
+}
+
+.detail-container .logo-container {
+  margin-right: 2em;
+  margin-top: .2em;
+}
+
+.personal-info {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.personal-info .headline {
+  margin-top: .4em;
+  margin-bottom: .2em;
+  font-style: italic;
+}
+
+.personal-info ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.personal-info ul li {
+  border-left: 2px solid;
+  padding-left: .8em;
+  margin-left: .8em;
+}
+
+.personal-info ul li a {
+  text-decoration: none;
+}
+
+.personal-info ul #linkedin {
+  border-left: none;
+}
+
+.personal-info ul #github a {
+  color: #1853f5;
+}
+
+.experience .detail ul {
+  margin-left: 1.2em;
+  margin-top: .3em;
+}
+
+.experience .detail ul li {
+  list-style: square;
+}
+
+.skills ul li {
+  list-style: circle;
+  margin-left: 1.2em;
+}
+
+.projects .project-description {
+  margin-left: 1.2em;
+}
+
+.projects .project-description li {
+  list-style: circle;
+}
+
+.projects .project-description li .second-level-list {
+  margin-left: 1em;
+}
+
+.projects .project-description li .second-level-list li {
+  list-style: square;
+}
+/*# sourceMappingURL=style.css.map */
