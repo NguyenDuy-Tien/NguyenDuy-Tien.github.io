@@ -1,0 +1,101 @@
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 86%;
+  }
+  .logo-container {
+    width: 36px;
+    height: 36px;
+  }
+  img {
+    height: 36px;
+  }
+  .time,
+  .location {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 85%;
+  }
+  .logo-container {
+    width: 36px;
+    height: 36px;
+  }
+  .detail-container {
+    margin-bottom: .4em;
+  }
+  .detail-container .logo-container {
+    margin-right: .8em;
+  }
+  img {
+    height: 36px;
+  }
+  .time,
+  .location {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  body {
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+  html {
+    font-size: 80%;
+  }
+  .logo-container {
+    width: 32px;
+    height: 32px;
+  }
+  .detail-container {
+    margin-bottom: .4em;
+  }
+  .detail-container .logo-container {
+    margin-right: .8em;
+  }
+  img {
+    height: 32px;
+  }
+  .time,
+  .location {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+  html {
+    font-size: 75%;
+  }
+  .logo-container {
+    width: 28px;
+    height: 28px;
+  }
+  .detail-container {
+    margin-bottom: .4em;
+  }
+  .detail-container .logo-container {
+    margin-right: .8em;
+  }
+  img {
+    height: 28px;
+  }
+  .time,
+  .location {
+    font-size: 90%;
+  }
+  .experience .detail ul {
+    margin-left: 0;
+  }
+  .experience .detail ul li {
+    list-style: square;
+    list-style-position: inside;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

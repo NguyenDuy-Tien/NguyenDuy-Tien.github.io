@@ -21,7 +21,7 @@ html {
     height: auto;
     max-width: 160px;
     border-radius: 50%;
-    border: 1px solid white;
+    border: .25em solid white;
 }
 
 .logo-container {
@@ -52,17 +52,18 @@ a {
 
 // PARTS
 .part {
-    padding-bottom: .6em;
+    padding-bottom: .8em;
     border-top: 4px solid;
 }
 
 .detail-container {
     display: flex;
     position: relative;
+    flex: 1;
     margin-top: .6em;
     margin-bottom: 1em;
     .logo-container {
-        margin-right: 2em;
+        margin-right: 1.5em;
         margin-top: .2em;
     }
 }
@@ -78,7 +79,9 @@ a {
     }
     ul {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
+        position: relative;
         li {
             border-left: 2px solid;
             padding-left: .8em;
@@ -122,13 +125,16 @@ a {
 //PROJECTS
 .projects {
     .project-description {
-        margin-left: 1.2em;
+        margin-left: 2.2em;
         li {
             list-style: circle;
+            line-height: 120%;
+            margin-bottom: .4em;
             .second-level-list {
                 margin-left: 1em;
                 li {
                     list-style: square;
+                    margin-bottom: .1em;
                 }
             }
         }

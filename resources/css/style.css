@@ -22,7 +22,7 @@ html {
   height: auto;
   max-width: 160px;
   border-radius: 50%;
-  border: 1px solid white;
+  border: .25em solid white;
 }
 
 .logo-container {
@@ -52,7 +52,7 @@ a {
 }
 
 .part {
-  padding-bottom: .6em;
+  padding-bottom: .8em;
   border-top: 4px solid;
 }
 
@@ -61,12 +61,15 @@ a {
   display: -ms-flexbox;
   display: flex;
   position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   margin-top: .6em;
   margin-bottom: 1em;
 }
 
 .detail-container .logo-container {
-  margin-right: 2em;
+  margin-right: 1.5em;
   margin-top: .2em;
 }
 
@@ -85,9 +88,12 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
 }
 
 .personal-info ul li {
@@ -123,11 +129,13 @@ a {
 }
 
 .projects .project-description {
-  margin-left: 1.2em;
+  margin-left: 2.2em;
 }
 
 .projects .project-description li {
   list-style: circle;
+  line-height: 120%;
+  margin-bottom: .4em;
 }
 
 .projects .project-description li .second-level-list {
@@ -136,5 +144,6 @@ a {
 
 .projects .project-description li .second-level-list li {
   list-style: square;
+  margin-bottom: .1em;
 }
 /*# sourceMappingURL=style.css.map */
