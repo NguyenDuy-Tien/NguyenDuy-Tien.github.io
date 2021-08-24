@@ -8,7 +8,7 @@
 }
 
 body {
-  padding: 2vw 5vh 2vw 5vh;
+  padding: 2vh 2vw 5vh 2vw;
 }
 
 html {
@@ -54,6 +54,11 @@ a {
 .part {
   padding-bottom: .8em;
   border-top: 4px solid;
+}
+
+.part-info {
+  padding-left: .6em;
+  padding-top: .2em;
 }
 
 .detail-container {

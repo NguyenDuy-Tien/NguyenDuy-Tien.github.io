@@ -1,0 +1,30 @@
+body {
+  display: -ms-grid;
+  display: grid;
+  padding-left: 0;
+  -ms-grid-columns: 25% (12%)[6];
+      grid-template-columns: 25% repeat(6, 12%);
+  -ms-grid-rows: (10%)[10];
+      grid-template-rows: repeat(10, 10%);
+}
+
+.personal-info {
+  grid-row: span 10;
+  border-right: 4px solid;
+}
+
+.part {
+  grid-column: span 3;
+  grid-row: span 3;
+  border-right: 4px solid;
+}
+
+.projects {
+  grid-column: span 6;
+  grid-row: span 6;
+}
+
+h3 {
+  padding-left: .4em;
+}
+/*# sourceMappingURL=pdf_style.css.map */
