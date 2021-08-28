@@ -151,4 +151,9 @@ a {
   list-style: square;
   margin-bottom: .1em;
 }
+
+.project {
+  padding-bottom: .4rem;
+  border-bottom: 1px solid;
+}
 /*# sourceMappingURL=style.css.map */
