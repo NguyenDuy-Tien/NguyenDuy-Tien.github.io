@@ -26,15 +26,22 @@
       <div class="contact">
         <ul>
           <li id="linkedin">
-            <a href="https://www.linkedin.com/in/tienduy2912/"
-              >www.linkedin.com/in/tienduy2912</a
-            >
+            <a href="https://www.linkedin.com/in/tienduy2912/">
+              <img src="./resources/img/Logo_Linkedin.png" alt="Linkedin" />
+              www.linkedin.com/in/tienduy2912
+            </a>
           </li>
           <li id="github">
-            <a href="https://github.com/Tiennd4857">github.com/Tiennd4857</a>
+            <a href="https://github.com/Tiennd4857">
+              <img src="./resources/img/Logo_Github.png" alt="GitHub" />
+              github.com/NguyenDuy-Tien
+            </a>
           </li>
           <li>
-            <a href="mailto: tienduy2912@gmail.com">tienduy2912@gmail.com</a>
+            <a href="mailto: tienduy2912@gmail.com">
+              <img src="./resources/img/Logo_Gmail.png" alt="Gmail" />
+              tienduy2912@gmail.com
+            </a>
           </li>
         </ul>
       </div>
@@ -52,6 +59,7 @@
             </h4>
             <p>Engineer's degree, Infomation Technology</p>
             <p class="time">2019 - present</p>
+            <p><em>*Achievement: Student with Top Performance in semester 2022.1</em></p>
           </div>
         </li>
       </ul>
@@ -60,28 +68,28 @@
       <h3>Work Experience</h3>
       <ul class="part-info">
         <li class="detail-container">
-            <div class="logo-container">
-              <img
-                class="logo"
-                src="./resources/img/Logo_Sapo.jpg"
-                alt="Sapo-logo"
-              />
-            </div>
-            <div class="detail">
-              <h4>Fullstack Developer at SAPO</h4>
-              <p class="time">Dec 2021 - Present</p>
-              <p class="location">Hanoi, Vietnam</p>
-              <ul class="job-description">
-                <li>Java with Spring framework</li>
-                <li>Working with Microservices architecture</li>
-                <li>Using ReactJS to maintain and develop new features</li>
-                <li>Valuable experienced in customer-oriented UX/UI</li>
-                <li>Acquisite of working with a large-scale database</li>
-                <li>Get familiar with Agile project management (JIRA)</li>
-                <li>Participating in company events actively</li>
-              </ul>
-            </div>
-          </li>
+          <div class="logo-container">
+            <img
+              class="logo"
+              src="./resources/img/Logo_Sapo.jpg"
+              alt="Sapo-logo"
+            />
+          </div>
+          <div class="detail">
+            <h4>Fullstack Developer at SAPO</h4>
+            <p class="time">Dec 2021 - Nov 2022</p>
+            <p class="location">Hanoi, Vietnam</p>
+            <ul class="job-description">
+              <li>Java with Spring framework</li>
+              <li>Working with Microservices architecture</li>
+              <li>Using ReactJS to maintain and develop new features</li>
+              <li>Valuable experienced in customer-oriented UX/UI</li>
+              <li>Acquisite of working with a large-scale database</li>
+              <li>Get familiar with Agile project management (JIRA)</li>
+              <li>Participating in company events actively</li>
+            </ul>
+          </div>
+        </li>
         <li class="detail-container">
           <div class="logo-container">
             <img
@@ -96,7 +104,7 @@
             <p class="location">Hanoi, Vietnam</p>
             <ul class="job-description">
               <li>Assisted teaching for a high-school principal</li>
-              <li>Taught several classes of 5-7 students</li>
+              <li>Taught several classes</li>
             </ul>
           </div>
         </li>
@@ -114,7 +122,7 @@
             <p class="location">Hanoi, Vietnam</p>
             <ul class="job-description">
               <li>Assisted for foreign teachers</li>
-              <li>Participated in organizing weekly activities for kids</li>
+              <li>Participated in organizing weekly activities</li>
             </ul>
           </div>
         </li>
@@ -123,16 +131,37 @@
     <div class="skills part">
       <h3>Skills</h3>
       <ul class="part-info">
-        <li>Java Spring, Kafka, Redis</li>
+        <li>Java Spring, Kafka, RabbitMQ, Redis</li>
         <li>HTML, CSS, JavaScript, ReactJS</li>
         <li>MySQL, SQL Server, PostgreSQL</li>
         <li>Git, GitHub, Gitlab</li>
         <li>JIRA, Trello</li>
+        <li>Others (limited usage): GraphQL, Docker, Figma </li>
       </ul>
     </div>
     <div class="certifications part">
       <h3>Certifications</h3>
       <ul class="part-info">
+        <li class="detail-container">
+          <div class="logo-container">
+            <img
+              class="logo"
+              src="./resources/img/Logo_Toeic.png"
+              alt="Toeic-logo"
+            />
+          </div>
+          <div class="detail">
+            <h4>TOEIC 960/990</h4>
+            <p>IIG</p>
+            <p class="time">Issue Nov 2022 - Nov 2024</p>
+            <p class="credential">
+              <a
+                href="https://www.credly.com/badges/c1005885-e5e8-4a02-8e2d-ef5c0b2dc3e9"
+                >See credential</a
+              >
+            </p>
+          </div>
+        </li>
         <li class="detail-container">
           <div class="logo-container">
             <img
@@ -179,30 +208,49 @@
       <h3>Projects</h3>
       <ul class="part-info">
         <li class="project">
+          <h4>Programming Contest System</h4>
+          <p class="time">March 2022 - present</p>
+          <ul class="project-description">
+            <li>
+              Project Description: This is a project launched by Prof. Pham Quang Dung with the 
+              desire to build an effective, user-friendly and customisable <em>Programming Contest System</em> to
+              serve thousands of lecturers and students.
+            </li>
+            <li>
+              Accomplishments:
+              <ul class="project-responsibilities second-level-list">
+                <li>Implement message queue (RabbitMQ) to handle large number of heavy requests <em>(scale from 10req/s to ~300req/s)</em> </li>
+                <li>Apply caching (Redis) to save system resources and enhance user experience </li>
+                <li>Develop functionalities: import/export files, multi-languages, process submission responses, etc. </li>
+                <li>Refactor and optimize code </li>
+                <li>Improve UI/UX</li>
+              </ul>
+            </li>
+            <li>Technologies: Java</li>
+          </ul>
+        </li>
+        <li class="project">
           <h4>Web Application for Online Store Management</h4>
           <p class="time">Oct 2021 - Present</p>
           <ul class="project-description">
             <li>
               Website:
-              <a href="http://dastoma.me/"
-                >http://dastoma.me/</a
-              >
+              <a href="http://dastoma.me/">http://dastoma.me/</a>
               <ul class="second-level-list">
-                <li> Testing account: <em>budatester@gmail.com</em></li>
-                <li> Password: <em> budatester</em> </li>
+                <li>Testing account: <em>budatester@gmail.com</em></li>
+                <li>Password: <em> budatester</em></li>
               </ul>
-              
             </li>
             <li>
-              Project Description: <em></em> A web application that helps merchants managing 
-              their stores' activities efficiently.
+              Project Description: <em></em> A web application that helps
+              merchants managing their stores' activities efficiently.
             </li>
             <li>Team Size: 7</li>
             <li>
               Responsibilities:
               <ul class="project-responsibilities second-level-list">
                 <li>Lead frontend team (size of 4)</li>
-                <li>Construct reusable custom components of the project</li>
+                <li>Construct reusable components for the project</li>
                 <li>Build core functionalities for the team</li>
                 <li>Maintain a clear and user-friendly GUI</li>
                 <li>Ensure the progress and collaboration of members</li>
@@ -232,15 +280,7 @@
               <ul class="project-responsibilities second-level-list">
                 <li>Communicate with teammates to get clear requirement.</li>
                 <li>Create a clear and user-friendly GUI</li>
-                <li>Develop the modules of the system</li>
-              </ul>
-            </li>
-            <li>
-              Accomplishments:
-              <ul class="project-accomplishments second-level-list">
-                <li>Improved teamwork and communication skills</li>
-                <li>Improved OOP thinking</li>
-                <li>Gained experience in managing time and resources</li>
+                <li>Develop and maintain project</li>
               </ul>
             </li>
             <li>Technologies: Java</li>
@@ -251,12 +291,6 @@
           <p class="time">Aug 2021</p>
           <ul class="project-description">
             <li>
-              GitHub:
-              <a href="https://github.com/Tiennd4857/QuizWeb"
-                >github.com/Tiennd4857/QuizWeb</a
-              >
-            </li>
-            <li>
               Website:
               <a href="https://quiz-sports-tienduy2912.netlify.app/"
                 >https://quiz-sports-tienduy2912.netlify.app/</a
@@ -264,7 +298,7 @@
             </li>
             <li>Personal project</li>
             <li>
-              Project Description: <em></em> A website that helps people test
+              Project Description: <em></em> A simple website that helps people test
               their knowledge in popular sports.
             </li>
             <li>

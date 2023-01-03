@@ -44,6 +44,7 @@ h3 {
 .location {
     opacity: .6;
     font-size: 14px;
+    margin-bottom: 2px;
 }
 
 a {
@@ -92,7 +93,16 @@ a {
             padding-left: .8em;
             margin-left: .8em;
             a {
+                display: flex;
+                align-items: center;
                 text-decoration: none;
+                img {
+                    height: 1.8em;
+                    margin-right: .4em;
+                    padding: 2px;
+                    border: 2px solid lightblue;
+                    border-radius: 50%;
+                }
             }
         }
         #linkedin {
@@ -124,12 +134,14 @@ a {
     ul li {
         list-style: circle;
         margin-left: 1.2em;
+        margin-bottom: .2em;
     }
 }
 
 //PROJECTS
 .projects {
     .project-description {
+        padding-top: .2em;
         margin-left: 2.2em;
         li {
             list-style: circle;
@@ -147,7 +159,7 @@ a {
 }
 
 .project {
-    padding-top: .4rem;
-    padding-bottom: .8rem;
-    border-bottom: 1px solid;
+    padding-top: .6rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid gray;
 }

@@ -45,6 +45,7 @@ h3 {
 .location {
   opacity: .6;
   font-size: 14px;
+  margin-bottom: 2px;
 }
 
 a {
@@ -108,7 +109,21 @@ a {
 }
 
 .personal-info ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-decoration: none;
+}
+
+.personal-info ul li a img {
+  height: 1.8em;
+  margin-right: .4em;
+  padding: 2px;
+  border: 2px solid lightblue;
+  border-radius: 50%;
 }
 
 .personal-info ul #linkedin {
@@ -131,9 +146,11 @@ a {
 .skills ul li {
   list-style: circle;
   margin-left: 1.2em;
+  margin-bottom: .2em;
 }
 
 .projects .project-description {
+  padding-top: .2em;
   margin-left: 2.2em;
 }
 
@@ -153,8 +170,8 @@ a {
 }
 
 .project {
-  padding-top: .4rem;
-  padding-bottom: .8rem;
-  border-bottom: 1px solid;
+  padding-top: .6rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid gray;
 }
 /*# sourceMappingURL=style.css.map */
