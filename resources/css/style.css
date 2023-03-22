@@ -80,17 +80,7 @@ a {
 }
 
 .personal-info {
-  text-align: center;
   margin-bottom: 2em;
-}
-
-.personal-info .headline {
-  margin-top: .4em;
-  margin-bottom: .6em;
-  font-style: italic;
-}
-
-.personal-info ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -99,13 +89,21 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.personal-info .headline {
+  margin-top: .4em;
+  margin-bottom: .6em;
+  font-style: italic;
 }
 
 .personal-info ul li {
-  border-left: 2px solid;
   padding-left: .8em;
-  margin-left: .8em;
+  margin-left: 12em;
+  margin-bottom: .8em;
 }
 
 .personal-info ul li a {
@@ -124,10 +122,6 @@ a {
   padding: 2px;
   border: 2px solid lightblue;
   border-radius: 50%;
-}
-
-.personal-info ul #linkedin {
-  border-left: none;
 }
 
 .personal-info ul #github a {
