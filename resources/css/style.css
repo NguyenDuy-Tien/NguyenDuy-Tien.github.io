@@ -3,7 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #def5f1;
+  background-color: #e0f0ed;
   list-style: none;
 }
 
@@ -12,7 +12,7 @@ body {
 }
 
 html {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-size: 15px;
 }
 
@@ -22,18 +22,27 @@ html {
   height: auto;
   max-width: 160px;
   border-radius: 50%;
-  border: .25em solid white;
+  border: 0.25em solid white;
+  -webkit-box-shadow: 0px 2px 4px 0px #00000026;
+          box-shadow: 0px 2px 4px 0px #00000026;
 }
 
 .logo-container {
   width: 50px;
   height: 50px;
-  background-color: #ebf3f2;
   text-align: center;
 }
 
 img {
   height: 50px;
+}
+
+.work img {
+  width: 50px;
+}
+
+.certification img {
+  height: 40px;
 }
 
 h3 {
@@ -43,9 +52,9 @@ h3 {
 
 .time,
 .location {
-  opacity: .8;
+  opacity: 0.8;
   font-size: 14px;
-  margin-bottom: 2px;
+  margin: 2px 0;
 }
 
 a {
@@ -53,13 +62,13 @@ a {
 }
 
 .part {
-  padding-bottom: .8em;
+  padding-bottom: 1em;
   border-top: 4px solid;
 }
 
 .part-info {
-  padding-left: .6em;
-  padding-top: .2em;
+  padding-left: 0.6em;
+  padding-top: 0.2em;
 }
 
 .detail-container {
@@ -70,13 +79,13 @@ a {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin-top: .6em;
-  margin-bottom: 2em;
+  margin-top: 0.75em;
+  margin-bottom: 1.5em;
 }
 
 .detail-container .logo-container {
   margin-right: 1.5em;
-  margin-top: .2em;
+  margin-top: 0.2em;
 }
 
 .personal-info {
@@ -95,16 +104,16 @@ a {
 }
 
 .personal-info .headline {
-  margin-top: .4em;
-  margin-bottom: .6em;
+  margin-top: 0.4em;
+  margin-bottom: 0.6em;
   font-style: italic;
 }
 
 .personal-info ul li {
   border-left: 2px solid;
-  padding-left: .8em;
+  padding-left: 0.8em;
   margin-left: 12em;
-  margin-bottom: .8em;
+  margin-bottom: 0.8em;
 }
 
 .personal-info ul li a {
@@ -119,7 +128,7 @@ a {
 
 .personal-info ul li a img {
   height: 1.8em;
-  margin-right: .4em;
+  margin-right: 0.4em;
   padding: 2px;
   border: 2px solid lightblue;
   border-radius: 50%;
@@ -131,7 +140,7 @@ a {
 
 .experience .detail ul {
   margin-left: 1.2em;
-  margin-top: .3em;
+  margin-top: 0.3em;
 }
 
 .experience .detail ul li {
@@ -141,18 +150,18 @@ a {
 .skills ul li {
   list-style: circle;
   margin-left: 1.2em;
-  margin-bottom: .2em;
+  margin-bottom: 0.2em;
 }
 
 .projects .project-description {
-  padding-top: .2em;
+  padding-top: 0.2em;
   margin-left: 2.2em;
 }
 
 .projects .project-description li {
   list-style: circle;
   line-height: 120%;
-  margin-bottom: .4em;
+  margin-bottom: 0.4em;
 }
 
 .projects .project-description li .second-level-list {
@@ -161,11 +170,11 @@ a {
 
 .projects .project-description li .second-level-list li {
   list-style: square;
-  margin-bottom: .1em;
+  margin-bottom: 0.1em;
 }
 
 .project {
-  padding-top: .6rem;
+  padding-top: 0.6rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid gray;
 }
