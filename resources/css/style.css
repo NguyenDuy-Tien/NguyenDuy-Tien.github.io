@@ -16,6 +16,10 @@ html {
   font-size: 15px;
 }
 
+.avatar {
+  text-align: center;
+}
+
 #avatar {
   width: 20vw;
   margin-bottom: 5px;
