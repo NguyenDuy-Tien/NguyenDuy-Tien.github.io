@@ -22,7 +22,7 @@ html {
   width: 20vw;
   margin-bottom: 5px;
   height: auto;
-  max-width: 160px;
+  max-width: 120px;
   border-radius: 50%;
   border: 0.25em solid white;
   box-shadow: 0px 2px 4px 0px #00000026;
@@ -184,4 +184,12 @@ a {
   padding-top: 0.6rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid gray;
+}
+
+footer {
+  margin-top: 6px;
+  text-align: center;
+  #online-cv-link {
+    color: rgb(83, 83, 83);
+  }
 }
