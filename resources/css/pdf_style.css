@@ -1,11 +1,8 @@
 body {
-  display: -ms-grid;
   display: grid;
   padding-left: 0;
-  -ms-grid-columns: 25% (12%)[6];
-      grid-template-columns: 25% repeat(6, 12%);
-  -ms-grid-rows: (10%)[10];
-      grid-template-rows: repeat(10, 10%);
+  grid-template-columns: 25% repeat(6, 12%);
+  grid-template-rows: repeat(10, 10%);
 }
 
 .personal-info {
@@ -25,6 +22,5 @@ body {
 }
 
 h3 {
-  padding-left: .4em;
-}
-/*# sourceMappingURL=pdf_style.css.map */
+  padding-left: 0.4em;
+}/*# sourceMappingURL=pdf_style.css.map */

@@ -140,12 +140,15 @@ a {
 
 //WORK EXPERIENCE
 .experience {
-  .detail {
-    ul {
-      margin-left: 1.2em;
-      margin-top: 0.3em;
-      li {
-        list-style: square;
+  .detail-container {
+    margin-bottom: 1.25em;
+    .detail {
+      ul {
+        margin-left: 1.2em;
+        margin-top: 0.3em;
+        li {
+          list-style: square;
+        }
       }
     }
   }

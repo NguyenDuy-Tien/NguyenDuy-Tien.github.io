@@ -1,9 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background-color: #e0f0ed;
+  box-sizing: border-box;
+  background-color: rgb(224, 240, 237);
   list-style: none;
 }
 
@@ -27,8 +26,7 @@ html {
   max-width: 120px;
   border-radius: 50%;
   border: 0.25em solid white;
-  -webkit-box-shadow: 0px 2px 4px 0px #00000026;
-          box-shadow: 0px 2px 4px 0px #00000026;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
 }
 
 .logo-container {
@@ -63,7 +61,7 @@ h3 {
 }
 
 a {
-  color: #1853f5;
+  color: rgb(24, 83, 245);
 }
 
 .part {
@@ -77,17 +75,12 @@ a {
 }
 
 .detail-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
   margin-top: 0.75em;
   margin-bottom: 1em;
 }
-
 .detail-container .logo-container {
   margin-right: 1.5em;
   margin-top: 0.2em;
@@ -95,42 +88,27 @@ a {
 
 .personal-info {
   margin-bottom: 2em;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-
 .personal-info .headline {
   margin-top: 0.4em;
   margin-bottom: 0.6em;
   font-style: italic;
 }
-
 .personal-info ul li {
   border-left: 2px solid;
   padding-left: 0.8em;
   margin-left: 12em;
   margin-bottom: 0.8em;
 }
-
 .personal-info ul li a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   text-decoration: none;
 }
-
 .personal-info ul li a img {
   height: 1.8em;
   margin-right: 0.4em;
@@ -138,17 +116,18 @@ a {
   border: 2px solid lightblue;
   border-radius: 50%;
 }
-
 .personal-info ul #github a {
-  color: #1853f5;
+  color: rgb(24, 83, 245);
 }
 
-.experience .detail ul {
+.experience .detail-container {
+  margin-bottom: 1.25em;
+}
+.experience .detail-container .detail ul {
   margin-left: 1.2em;
   margin-top: 0.3em;
 }
-
-.experience .detail ul li {
+.experience .detail-container .detail ul li {
   list-style: square;
 }
 
@@ -162,17 +141,14 @@ a {
   padding-top: 0.2em;
   margin-left: 2.2em;
 }
-
 .projects .project-description li {
   list-style: circle;
   line-height: 120%;
   margin-bottom: 0.4em;
 }
-
 .projects .project-description li .second-level-list {
   margin-left: 1em;
 }
-
 .projects .project-description li .second-level-list li {
   list-style: square;
   margin-bottom: 0.1em;
@@ -188,8 +164,6 @@ footer {
   margin-top: 6px;
   text-align: center;
 }
-
 footer #online-cv-link {
-  color: #535353;
-}
-/*# sourceMappingURL=style.css.map */
+  color: rgb(83, 83, 83);
+}/*# sourceMappingURL=style.css.map */
